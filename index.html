@@ -11,36 +11,44 @@
     </head>
     <body>
         <div class="container">
-            <nav class="sidenav">
-                <div class="logo-container">
-                    <img src="img/icons/apple_logo.svg" alt="Apple Music">
-                </div>
-                <div class="search-box">
-                    <img src="img/icons/search.svg" alt="">
-                    <input type="text" placeholder="Search" class="search-box__input">
-                </div>
-                <div class="web-nav">
-                    <ul class="web-nav__list">
-                        <li class="web-nav__list-item"> 
-                            <img src="img/icons/play.svg" alt="">
-                            <span>Listen Now</span>
-                        </li>
-                        <li class="web-nav__list-item"> 
-                            <img src="img/icons/browse.svg" alt="">
-                            <span>Browse</span>
-                        </li>
-                        <li class="web-nav__list-item"> 
-                            <img src="img/icons/radio.svg" alt="">
-                            <span>Radio</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="itunes-cta">
-                    <button class="btn-itunes">
-                        <img src="img/icons/music.svg" alt="Music Icon">
-                        <p>Open in iTunes</p>
-                        <img src="img/icons/arrow.svg" alt="Arrow">
-                    </button>
+            <nav class="sidenav-container">
+                <div class="sidenav">
+                    <div class="logo-container">
+                        <img src="img/icons/apple_logo.svg" alt="Apple Music">
+                    </div>
+                    <div class="search-box">
+                            <img src="img/icons/search.svg" alt="" class="search-box__logo">
+                            <input type="text" placeholder="Search" class="search-box__input">
+                    </div>
+                    <div class="web-nav">
+                        <ul class="web-nav__list">
+                            <li class="web-nav__list-item"> 
+                                <a href="#"  class="web-nav__anchor">
+                                    <img src="img/icons/play.svg" alt="">
+                                    <span>Listen Now</span>
+                                </a>
+                            </li>
+                            <li class="web-nav__list-item"> 
+                                <a href="#"  class="web-nav__anchor">
+                                    <img src="img/icons/browse.svg" alt="">
+                                    <span>Browse</span>
+                                </a>
+                            </li>
+                            <li class="web-nav__list-item"> 
+                                <a href="#"  class="web-nav__anchor">
+                                    <img src="img/icons/radio.svg" alt="">
+                                    <span>Radio</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="itunes-cta">
+                        <button class="itunes-cta__btn">
+                            <img src="img/icons/music.svg" alt="Music Icon">
+                            <span class="itunes-cta__text">Open in iTunes</span>
+                            <img src="img/icons/arrow.svg" alt="Arrow">
+                        </button>
+                    </div>
                 </div>
             </nav>
             <main class="content-view">

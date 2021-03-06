@@ -23,9 +23,9 @@ body {
   display: flex;
 }
 
-.sidenav {
+.sidenav-container {
   width: 20%;
-  background-color: #eee;
+  background-color: #f9f9f9;
   height: 100vh;
   border-right: 1px solid rgba(0, 0, 0, 0.08);
   display: flex;
@@ -34,13 +34,80 @@ body {
   padding-left: 3rem;
 }
 
+.sidenav {
+  width: 85%;
+}
+
+.search-box {
+  margin-top: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0.7rem 0.8rem;
+  background-color: white;
+  border-radius: 0.4rem;
+}
+.search-box__input {
+  width: 70%;
+  margin-left: 0.5rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-box__input::-moz-placeholder {
+  color: #00000059;
+}
+.search-box__input:-ms-input-placeholder {
+  color: #00000059;
+}
+.search-box__input::placeholder {
+  color: #00000059;
+}
+.search-box__logo {
+  z-index: 2;
+}
+
 .web-nav {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.15);
+}
+.web-nav__list {
+  list-style: none;
+  font-size: 1.7rem;
+  padding-top: 2rem;
+}
+.web-nav__anchor {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.1rem;
+  padding-right: 2rem;
+}
+.web-nav__list-item span {
+  padding-top: 0.4rem;
+  margin-left: 1rem;
+}
+
+.itunes-cta {
   width: 100%;
+}
+.itunes-cta__btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.itunes-cta__text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: rgba(0, 0, 0, 0.35);
 }
 
 .content-view {
   width: 80%;
-  background-color: #eee;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
