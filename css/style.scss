@@ -244,10 +244,15 @@ body {
 .grid-item {
     width: 18.68rem;
 
-    &__img {
+    &__img,&__img2 {
         width: 100%;
-        height: 18.68rem ;
         border-radius: .6rem;
+    }
+    &__img {
+        height: 18.68rem ;
+    }
+    &__img2 {
+        height: 10.53rem;
     }
     &-lookup{
 
@@ -256,10 +261,9 @@ body {
             font-size : 1.19rem;
             color: #000000FD;
         }
-        &__genre {
-            color: #3C3C4399;
-            font-size: 1.5rem;
-        }
+        &__genre {font-size: 1.5rem;}
+        &__genre2{font-size: 1.3rem;}
+        &__genre,&__genre2 {color: #3C3C4399;}
     }
 
 }

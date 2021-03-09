@@ -208,10 +208,15 @@ body {
 .grid-item {
   width: 18.68rem;
 }
-.grid-item__img {
+.grid-item__img, .grid-item__img2 {
   width: 100%;
-  height: 18.68rem;
   border-radius: 0.6rem;
+}
+.grid-item__img {
+  height: 18.68rem;
+}
+.grid-item__img2 {
+  height: 10.53rem;
 }
 .grid-item-lookup__name {
   text-decoration: none;
@@ -219,6 +224,11 @@ body {
   color: #000000FD;
 }
 .grid-item-lookup__genre {
-  color: #3C3C4399;
   font-size: 1.5rem;
+}
+.grid-item-lookup__genre2 {
+  font-size: 1.3rem;
+}
+.grid-item-lookup__genre, .grid-item-lookup__genre2 {
+  color: #3C3C4399;
 }/*# sourceMappingURL=style.css.map */
