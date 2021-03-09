@@ -17,11 +17,12 @@ html {
 body {
     font-weight: 400;
     line-height: 1.6rem;
-    
+
 }
 
 .container {
-    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
     // min-height: 100vh;
     display: flex;
 }
@@ -30,15 +31,16 @@ body {
 .sidenav-container {
     width: 20% ;
     background-color: #f9f9f9;
-    height: 100vh;
+    max-height: 100vh;
     border-right : 1px solid rgba(0,0,0,.08);
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
     padding-left: 3rem;
-    // align-items: center; 
-    
-    
+    // overflow-y:hidden;
+    // align-items: center;
+
+
 }
 .sidenav {
     width: 85%;
@@ -62,7 +64,7 @@ body {
         }
     }
 
-    
+
 }
 .web-nav {
     display:flex;
@@ -87,7 +89,7 @@ body {
         padding-right: 2rem;
     }
     &__list-item {
-        
+
         & span {
             padding-top: .4rem;
             margin-left: 1rem;
@@ -122,6 +124,8 @@ body {
 .content-view {
     width: 80%;
     background-color: #ffffff;
+    max-height: 100vh;
+    // overflow: hidden;
 }
 
 .sign-section {
@@ -144,7 +148,7 @@ body {
     width: 100%;
     margin-top: 5rem;
     padding-left: 3.5rem;
-    padding-right: 4rem;
+    padding-right: 3.5rem;
 
     &__header-title{
      font-size: 3.5rem;
@@ -153,7 +157,8 @@ body {
      border-bottom: .1rem solid rgba(0,0,0,0.15);
     }
 }
-
+///////////////////////////
+////
 .shelf-grid {
     display: flex;
     justify-content: space-between;
@@ -196,4 +201,65 @@ body {
         height: 28.5rem;
         border-radius: .6rem;
     }
+}
+
+///////////////////////////
+////  GRID2
+
+.shelf2 {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: .6rem;
+    padding-bottom: 3rem;
+    border-bottom: .1rem solid rgba(0,0,0,0.15);
+
+    &-section {
+        width: 100%;
+        display : flex;
+        justify-content: space-between;
+        &__title {
+            font-size: 1.7rem;
+            color: #000000F2;
+        }
+
+        &__see-all {
+            color: #fa233b;
+            text-decoration:none;
+            font-size: 1.5rem;
+            margin-bottom: .5rem;
+            &:hover {
+                border-bottom: 1px solid #fa233b;
+            }
+        }
+
+    }
+}
+
+.grid {
+    display:flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+
+}
+.grid-item {
+    width: 18.68rem;
+
+    &__img {
+        width: 100%;
+        height: 18.68rem ;
+        border-radius: .6rem;
+    }
+    &-lookup{
+
+        &__name {
+            text-decoration: none;
+            font-size : 1.19rem;
+            color: #000000FD;
+        }
+        &__genre {
+            color: #3C3C4399;
+            font-size: 1.5rem;
+        }
+    }
+
 }
