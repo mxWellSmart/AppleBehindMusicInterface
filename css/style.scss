@@ -37,7 +37,8 @@ body {
   }
 
   ::-webkit-scrollbar-track {
-    background: white;
+    background: rgb(231, 231, 231);
+    width: 4rem;
 }
 ::-webkit-scrollbar-thumb {
     background: #9b9898;
@@ -303,8 +304,8 @@ body {
 
 .footer-section {
     margin-top: 4rem;
-    margin-bottom: 7rem;
-    padding-bottom: 3rem; 
+    
+    padding-bottom: 12rem; 
     padding-left: 3.5rem;
     padding-right: 3.5rem;
     background-color: #f9f9f9;
@@ -373,3 +374,45 @@ body {
             text-decoration: none;
             }
 **/
+
+///////////////////////////
+////  TRIAL-BANNER
+
+.trial-banner {
+    position:fixed;
+    width: 100vw;
+    bottom: 0 ;
+    height: 7.5rem;
+    color:white;
+    background-color: #fa233b;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    &__description, .trial-btn {
+        padding: 1.8rem 2.5rem;
+    }
+    &__description {
+    }
+
+    &__header {
+        font-size: 2.2rem;
+
+    }
+    &__paragraph {
+        font-size: 1.5rem;
+        margin-top: 1.3rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.trial-btn {
+
+    &__btn {
+        padding: .7rem 2.2rem;
+        outline:none;
+        border:none;
+        border-radius: .5rem;
+        font-size: 1.5rem;
+        cursor:pointer;
+    }
+}
