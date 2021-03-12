@@ -8,3 +8,4 @@
 [0312/063024.016:ERROR:registration_protocol_win.cc(102)] CreateFile: O sistema não conseguiu localizar o ficheiro especificado. (0x2)
 [0312/071506.075:ERROR:registration_protocol_win.cc(102)] CreateFile: O sistema não conseguiu localizar o ficheiro especificado. (0x2)
 [0312/071506.057:ERROR:registration_protocol_win.cc(102)] CreateFile: O sistema não conseguiu localizar o ficheiro especificado. (0x2)
+[0312/095424.655:ERROR:registration_protocol_win.cc(102)] CreateFile: O sistema não conseguiu localizar o ficheiro especificado. (0x2)
