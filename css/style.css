@@ -24,6 +24,21 @@ body {
   display: flex;
 }
 
+::-webkit-scrollbar {
+  width: 0.4rem !important;
+  height: 0.4rem !important;
+  padding-right: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9b9898;
+  border-radius: 0.5rem;
+}
+
 .sidenav-container {
   width: 20%;
   background-color: #f9f9f9;
@@ -290,12 +305,8 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-.sub-info__item a::after {
-  content: "";
-  padding-right: 1rem;
-  border-right: 1px solid rgba(0, 0, 0, 0.35);
-  height: 100%;
-  text-decoration: none;
+.sub-info__item a:not(:last-of-type) {
+  border-right: 1px solid black;
 }
 .sub-info__item a:hover {
   border-bottom: 0.1rem solid #fa233b;
@@ -303,4 +314,14 @@ body {
 }
 .sub-info__item a :not(:last-child) {
   border-right: 0.1rem solid black;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/**
+&:not(:last-child){
+                content: '';
+            padding-right: 1rem;
+            border-right:1px solid rgba(0,0,0,0.35);
+            height: 100%;
+            text-decoration: none;
+            }
+**//*# sourceMappingURL=style.css.map */
