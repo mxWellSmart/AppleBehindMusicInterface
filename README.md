@@ -15,4 +15,4 @@ Dev Tools to understand the features of a given section of the webpage.
 - Website with sidebar are very popular.They are used in WhatsApp(web app), Youtube and Twitter. So the knowledge used to build this mockup can be reuse.
 - Consistence, consistence and consistence. I used the  B.E.M. (Block Element Modifier) notation in the SCSS styling and sometimes I found myself having issues in the right naming of nested blocks.
 ### Next Steps
-Even though, I think that the final result resembles the original website. There is a lot to improve in my version. The slide feature was not implemented. The scrollbar feature looks good but is need more love to be similar  to the original one. The CSS class naming need to be review. 
+Even though, I think that the final result resembles the original website. There is a lot to improve in my version. The slide feature was not implemented. The scrollbar feature looks good but is need more love to be similar  to the original one. The CSS class naming need a revision. And implement the media queries.
