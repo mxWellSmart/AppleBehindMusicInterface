@@ -11,7 +11,7 @@ Another thing that I had to use a lot was the Chrome
 Dev Tools to understand the features of a given section of the webpage.
 
 ### Lesson learned
-- Even tough that the website doesn't "look" complex ,by simple look to the code source or by pressing F12, we can see a different story.The page rendering depends heavily on json objects.
+- Even though that the website doesn't "look" complex ,by simple look to the code source or by pressing F12, we can see a different story.The page rendering depends heavily on json objects.
 - Website with sidebar are very popular.They are used in WhatsApp(web app), Youtube and Twitter. So the knowledge used to build this mockup can be reuse.
 - Consistence, consistence and consistence. I used the  B.E.M. (Block Element Modifier) notation in the SCSS styling and sometimes I found myself having issues in the right naming of nested blocks.
 ### Next Steps
